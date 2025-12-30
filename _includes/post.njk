@@ -1,0 +1,29 @@
+---
+layout: base.njk
+---
+
+<article>
+    <h1>{{ title }}</h1>
+    <p class="post-meta">{{ date | readableDate }}</p>
+    {% if tags %}
+    <p>
+        {% for tag in tags %}
+        {% if tag !== "posts" %}
+        <span class="btn btn-sm"><a href="/tags/{{ tag }}/">#{{ tag }}</a></span>
+        {% endif %}
+        {% endfor %}
+    </p>
+    {% endif %}
+
+    <div class="row" style="margin-top: 2em;">
+        <div class="col c12">
+            {{ content | safe }}
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 2em;">
+        <div class="col c12">
+            <p><a href="/blog/">← Back to all posts</a></p>
+        </div>
+    </div>
+</article>

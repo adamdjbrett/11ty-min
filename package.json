@@ -1,0 +1,21 @@
+{
+  "name": "minimalist-crow",
+  "version": "1.0.0",
+  "description": "A minimalist blog built with 11ty and entireframework.min.css",
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "blog",
+    "minimalist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.2"
+  }
+}

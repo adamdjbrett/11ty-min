@@ -1,0 +1,21 @@
+{
+  "title": "Minimalist Crow",
+  "description": "A minimalist blog exploring simplicity, design, and thoughtful living",
+  "url": "https://example.com",
+  "author": "Your Name",
+  "email": "your@email.com",
+  "navigation": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "label": "About",
+      "url": "/about/"
+    }
+  ]
+}
